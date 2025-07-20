@@ -180,13 +180,14 @@ header .container {
     visibility: hidden;
     pointer-events: none;
 }
-.mobile-menu-container {
+.header .mobile-menu-container {
     position: relative;
     padding-top: 72px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     height: 100%;
+    align-items: flex-start;
 
 
 }
@@ -212,6 +213,7 @@ header .container {
    .link {
     text-decoration: none;
     font-weight: 700;
+    font-style: normal;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
